@@ -1,0 +1,125 @@
+//META{"name":"lancTheme","description":"made in basement","author":"lanc#4555","version":"1.0.1"}*//
+
+.markup-2BOw-j {
+    color: #e0e0e0 !important;
+}
+.appMount-3lHmkl {
+    background-image: url("https://i.imgur.com/GzoiShd.png") !important;
+}
+.da-membersGroup {
+    color: rgba(168, 168, 168, 0.801) !important;
+}
+/* Header of profile popout */
+.da-headerTop {
+    background-color: #262626 !important;
+}
+/* Activity of profile popout */
+.da-activityUserPopout{
+    background-color: #242424 !important;
+}
+.header-QKLPzZ {
+    background-color: #262626 !important;
+}
+.da-tabBarContainer {
+    background-color: #262626 !important;
+}
+.da-activityProfile {
+    background-color: #242424 !important;
+}
+/* Send message button in alignCenter */
+.da-actionButton {
+    background-color: #3b3b3b !important;
+}
+.contents-18-Yxp {
+    color: #fff !important;
+}
+/* ALERTS: New messages, Date in guild */
+.da-dividerContent {
+    color: rgb(211, 106, 106) !important;
+}
+/* Timestamp when someone join */
+.da-timestamp {
+    color: rgba(211, 106, 106, 0.664) !important;
+}
+/* Timestamp when someone send message */
+.da-timestampCozy {
+    color: rgba(211, 106, 106, 0.664) !important; 
+}
+/* Bar on top of guild channel with alerts about new messages */
+.da-newMessagesBar {
+    background-color: rgba(211, 106, 106, 0.664) !important; 
+}
+/* Guild name */
+.name-3YKhmS {   }
+/* botTag (?) */
+.da-botTag {
+    color: #fff !important;
+    background-color: #838383 !important;
+}
+/* User tab in settings */
+.userInfoViewing-16kqK3 {
+    background-color: #25262A !important;
+}
+/* Change right part of page in settings */
+.contentRegionScroller-26nc1e {
+    background-image: url(https://i.imgur.com/GzoiShd.png) !important;
+    background-position-x: -271px;
+    background-position-y: -23px;
+}
+/* Change background in settings */
+.sidebarRegionScroller-3MXcoP {
+    background-image: url(https://i.imgur.com/GzoiShd.png) !important;
+    background-position-y: -23px;
+}
+
+/* Title bar logo */
+svg[name="DiscordWordmark"] {
+    background-image: url(https://i.imgur.com/fDopRqc.png);
+    margin-left: 2px;
+    padding-left: 70px;
+    height: 18px;
+    background-size: contain;
+    width: auto;
+    background-repeat: no-repeat;
+}
+/* DiscordWordmark off */
+svg[name="DiscordWordmark"] path {
+    display: none;
+}
+/* Text on settings page */
+.side-8zPYf6 div[class^="socialLinks-"]::before{
+    content: "you are using custom css by lanc © 2017-2019 lanc";
+    display: block;
+    color: gray;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.theme-dark div[class^='layers-']>div[class^='layer-'] {
+    /*background: linear-gradient(rgba(54, 57, 62, .6), rgba(54, 57, 62, .6)), url(//i.imgur.com/GrIThCE.jpg);*/
+    /*background: linear-gradient(rgba(0, 0, 0, .45), rgba(0, 0, 0, .45)), url(//i.imgur.com/bPCMSsy.jpg);*/
+    background: url(https://i.imgur.com/GzoiShd.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* Background resets to see the very bottom layer as set above */
+.theme-dark div[class*=' container-'],
+.theme-dark .chat,
+.theme-dark .chat>.content,
+.theme-dark .messages-wrapper,
+.theme-dark .channel-members,
+.theme-dark .chat form,
+.theme-dark div[class*=' title-'],
+.theme-dark div[class^='typing-'],
+.theme-dark #friends,
+.theme-dark div[class*=' headerBar-'],
+.friends-table {
+    background: rgba(0, 0, 0, 0) !important;
+}
+.theme-dark div[class^='channels-'],
+.theme-dark .guilds-wrapper,
+.theme-dark div[class*='Hovered'],
+.theme-dark .member:hover,
+.theme-dark .member.popout-open,
+.theme-dark .private-channels .channel:hover a {
+    opacity: 0.85;
+}
