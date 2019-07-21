@@ -11,4 +11,4 @@ This theme is a simple, pleasant theme without any extra things.
 ![alt previewGuild](https://i.imgur.com/TQCWpvY.png)
 
 ## Installation
-Copy this https://pastebin.com/raw/jmG3trPn in custom css
+Copy [this](https://pastebin.com/raw/jmG3trPn) in custom css
